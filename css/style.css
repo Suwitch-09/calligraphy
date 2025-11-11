@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    font-family: "LiSu", "STLiti", "SimLi", cursive;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.navigation_bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(185, 112, 52);
+}
+.navigation_bar h1 {
+    color: #ffffff;
+    padding-right: 200px;
+    text-shadow:1px 1px 20px rgba(0,0,0,0.5);
+}
+.navigation_bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow:1px 1px 20px rgba(0,0,0,1);
+}
+.navigation_bar a:hover {
+    transform: translateY(-2px);
+}
+.navigation_bar a:active {
+    transform: translateY(0);
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(5,1fr);
+    place-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(172, 172, 172);
+}
+.banner h2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.banner span {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.banner button {
+    grid-column: 2;
+    grid-row: 4;
+    width: 150px;
+    height: 50px;
+    border-color: rgba(163, 95, 39, 0.514);
+    border-radius: 20px;
+    background-color: rgb(185, 112, 52);
+}
+.banner button:hover {
+    background-color: rgb(199, 126, 66);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.banner button:active {
+    background-color: rgb(185, 112, 52);
+    transform: translateY(0);
+}
+
+.about_us {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(241, 235, 230);
+}
+.about_us h1 {
+    grid-column: 1 / span 2;
+}
+.about_font {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    height: 300px;
+    text-indent: 2em;
+}
+
+.activity {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(223, 210, 200);
+}
+.activity h1 {
+    grid-column: 1 / span 3;
+}
+
+.display {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(241, 235, 230);
+}
+.display h1 {
+    grid-column: 1 / span 3;
+}
+
+.teaching {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(223, 210, 200);
+}
+.teaching h1 {
+    grid-column: 1 / span 3;
+}
+
+.about_us_img {
+    display: grid;
+    height: 300px;
+    width: 50%;
+    background-color: #f1efe973;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    place-items: center;
+}
+
+.activity001 {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    height: 300px;
+    width: 50%;
+    background-color: #f1efe973;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    place-items: center;
+}
+
+
+.display001 {
+    display: grid;
+    height: 300px;
+    width: 50%;
+    background-color: #f1efe973;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    place-items: center;
+}
+.display button {
+    background-color: transparent;
+    border: none;
+}
+.display button:hover {
+    transform: translateY(-5px);
+}
+.display button:active {
+    transform: translateY(0px);
+}
+
+.display_img001 {
+    width: 100%; /* 宽度自适应父容器 */
+    height: 200px; /* 固定高度，可根据需要调整 */
+    background-image: url('C:/Users/18065/Desktop/Calligraphy/Calligraphy/img/58f90e71a419cfd7bb84c9bb613facbd.jpg');
+    background-size: contain; /* 关键：完整显示图片 */
+    background-position: center center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复 */
+}
+.display_img002 {
+    width: 100%; /* 宽度自适应父容器 */
+    height: 200px; /* 固定高度，可根据需要调整 */
+    background-image: url("C:/Users/18065/Desktop/Calligraphy/Calligraphy/img/5fc2307993da23477c1537d121bd7e00.jpg");
+    background-size: contain; /* 关键：完整显示图片 */
+    background-position: center center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复 */
+}
+.display_img003 {
+    width: 100%; /* 宽度自适应父容器 */
+    height: 200px; /* 固定高度，可根据需要调整 */
+    background-image: url("C:/Users/18065/Desktop/Calligraphy/Calligraphy/img/f4fced3eb9bff856822757149826bd38.jpg");
+    background-size: contain; /* 关键：完整显示图片 */
+    background-position: center center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复 */
+}
+
+.teaching001 {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    height: 200px;
+    width: 50%;
+    background-color: #f1efe973;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    place-items: center;
+}
+.teaching span {
+    text-indent: 2em;
+    width: 80%;
+}
+
+
+.tail {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(119, 119, 119);
+}
+@media screen and (min-width: 1024px) {
+    /* 保持原有样式 */
+}
+
+/* 平板设备 (768px - 1023px) */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .navigation_bar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 15px 0;
+    }
+    .navigation_bar h1 {
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .navigation_bar a {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    
+    .banner {
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        height: 250px;
+    }
+    
+    .about_us, .activity, .display, .teaching {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto;
+        padding: 30px 0;
+    }
+    
+    .about_us h1, .activity h1, .display h1, .teaching h1 {
+        grid-column: 1;
+        margin-bottom: 20px;
+    }
+    
+    .about_font, .about_us_img, .activity001, .display001, .teaching001 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .activity001, .teaching001 {
+        height: auto;
+        padding: 15px 0;
+    }
+}
+
+/* 手机设备 (小于768px) */
+@media screen and (max-width: 767px) {
+    .navigation_bar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+    .navigation_bar h1 {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .navigation_bar a {
+        font-size: 18px;
+        padding: 5px 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner {
+        grid-template-columns: 0.2fr 3.6fr 0.2fr;
+        height: 200px;
+    }
+    .banner h2 {
+        font-size: 1.5em;
+    }
+    .banner span {
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .banner button {
+        width: 120px;
+        height: 40px;
+    }
+    
+    .about_us, .activity, .display, .teaching {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .about_us h1, .activity h1, .display h1, .teaching h1 {
+        grid-column: 1;
+        margin-bottom: 15px;
+    }
+    
+    .about_font, .about_us_img, .activity001, .display001, .teaching001 {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    
+    .activity001, .teaching001 {
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .display_img001, .display_img002, .display_img003 {
+        height: 150px;
+    }
+}
+
+/* 通用响应式调整 */
+@media screen and (max-width: 1023px) {
+    .page {
+        font-size: 18px;
+    }
+    
+    .activity, .display, .teaching {
+        grid-template-columns: 1fr;
+    }
+    
+    .activity001, .display001, .teaching001 {
+        margin: 10px auto;
+    }
+}
