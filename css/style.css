@@ -177,7 +177,7 @@
 .display_img001 {
     width: 100%; /* 宽度自适应父容器 */
     height: 200px; /* 固定高度，可根据需要调整 */
-    background-image: url('C:/Users/18065/Desktop/Calligraphy/Calligraphy/img/58f90e71a419cfd7bb84c9bb613facbd.jpg');
+    background-image: url('../img/58f90e71a419cfd7bb84c9bb613facbd.jpg');
     background-size: contain; /* 关键：完整显示图片 */
     background-position: center center; /* 图片居中 */
     background-repeat: no-repeat; /* 不重复 */
@@ -185,7 +185,7 @@
 .display_img002 {
     width: 100%; /* 宽度自适应父容器 */
     height: 200px; /* 固定高度，可根据需要调整 */
-    background-image: url("C:/Users/18065/Desktop/Calligraphy/Calligraphy/img/5fc2307993da23477c1537d121bd7e00.jpg");
+    background-image: url("../img/5fc2307993da23477c1537d121bd7e00.jpg");
     background-size: contain; /* 关键：完整显示图片 */
     background-position: center center; /* 图片居中 */
     background-repeat: no-repeat; /* 不重复 */
@@ -193,7 +193,7 @@
 .display_img003 {
     width: 100%; /* 宽度自适应父容器 */
     height: 200px; /* 固定高度，可根据需要调整 */
-    background-image: url("C:/Users/18065/Desktop/Calligraphy/Calligraphy/img/f4fced3eb9bff856822757149826bd38.jpg");
+    background-image: url("../img/f4fced3eb9bff856822757149826bd38.jpg");
     background-size: contain; /* 关键：完整显示图片 */
     background-position: center center; /* 图片居中 */
     background-repeat: no-repeat; /* 不重复 */
@@ -348,4 +348,5 @@
     .activity001, .display001, .teaching001 {
         margin: 10px auto;
     }
+
 }
